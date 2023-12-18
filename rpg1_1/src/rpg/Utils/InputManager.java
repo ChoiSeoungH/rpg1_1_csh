@@ -1,10 +1,11 @@
 package rpg.Utils;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class InputManager {
   private static final Scanner sc = new Scanner(System.in);
-
+  private static Random rd = new Random();
   public static String getValue(String msg) {
     System.out.print(msg);
     return sc.next();
@@ -27,5 +28,9 @@ public class InputManager {
       }
     }//eow
   }//eom
+
+  public static int getRdNum(int start, int end){
+    return rd.nextInt(end) + start;
+  }
 
 }

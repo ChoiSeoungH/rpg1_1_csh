@@ -15,3 +15,5 @@ K
 rpg1_1/src/rpg/vo/Unit.java,6\c\6cbb86366615dfbec30d5f0267163a3ec92fd08d
 K
 rpg1_1/src/rpg/vo/Item.java,a\9\a9b120cda4605e3df1808dda8c8a4b4bdad85257
+V
+&rpg1_1/src/rpg/Utils/InputManager.java,a\1\a1c1c78480b0ef8d2e647fb37473c2879eafda0a

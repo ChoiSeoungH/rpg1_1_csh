@@ -73,14 +73,13 @@ public class Unit {
     this.ring = ring;
   }
 
-  public Unit(String name, int level, int maxHp, int att, int def, int exp) {
+  public Unit(String name, int maxHp, int att, int def) {
     this.name = name;
-    this.level = level;
+    this.level = 1;
     this.hp = maxHp;
     this.maxHp = maxHp;
     this.att = att;
     this.def = def;
-    this.exp = exp;
   }
 
   @Override
@@ -95,7 +94,7 @@ public class Unit {
     data += String.format("[경험치 : %d] [파티중 : %b]%n", exp, party);
     data += weapon == null ? "[무기 : 없음 ]" : "[무기 : " + weapon.name + "]";
     data += armor == null ? "[방어구 : 없음 ]" : "[방어구 : " + armor.name + "]";
-    data += ring == null ? "[반지 : 없음 ]" : "[반지 : " + ring.name + "]";
+    data += ring == null ? "[반지 : 없음 ]" : "[반지 : " + ring.name + "]%n";
     return data;
   }
 
