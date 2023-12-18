@@ -1,23 +1,13 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ÍËó
-=
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
-m
-java:S1450
-"WRemove the "fileData" field and declare it as a local variable in the relevant methods.(Ôûå
-p
-java:S1450"URemove the "player" field and declare it as a local variable in the relevant methods.(Ç¹Ù±úÿÿÿÿ
-i
-java:S1450	"SRemove the "shop" field and declare it as a local variable in the relevant methods.(ÛË˜
->
-java:S2440"(Remove this instantiation of "FileData".(¶ËÚì
-E	java:S106"+Replace this use of System.out by a logger.(›¼ë¤ıÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(ñÖÆıøÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(ÁÕ Ğıÿÿÿÿ
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ÍËó8°úßÇ1
+t
+java:S1450"WRemove the "fileData" field and declare it as a local variable in the relevant methods.(Ôûå8’°úßÇ1
 E
-java:S1068"*Remove this unused "player" private field.(Ç¹Ù±úÿÿÿÿ
->
-java:S1068	"(Remove this unused "shop" private field.(ÛË˜
-B
-java:S1068
-",Remove this unused "fileData" private field.(Ôûå
+java:S2440"(Remove this instantiation of "FileData".(¶ËÚì8”°úßÇ1
+L	java:S106"+Replace this use of System.out by a logger.(›¼ë¤ıÿÿÿÿ8•°úßÇ1
+L	java:S106"+Replace this use of System.out by a logger.(ñÖÆıøÿÿÿÿ8•°úßÇ1
+L	java:S106"+Replace this use of System.out by a logger.(ÁÕ Ğıÿÿÿÿ8•°úßÇ1
+=	java:S131""Add a default case to this switch.(€ä¿;8–°úßÇ1
+G	java:S106"+Replace this use of System.out by a logger.(¹œá×8–°úßÇ1
+I
+java:S1068",Remove this unused "fileData" private field.(Ôûå8—°úßÇ1
