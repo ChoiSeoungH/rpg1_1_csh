@@ -9,4 +9,26 @@ public class Item {
   int power;
   int price;
 
+  public int getKind() {
+    return kind;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public int getPower() {
+    return power;
+  }
+
+  public int getPrice() {
+    return price;
+  }
+
+  public Item(int kind, String name, int power, int price) {
+    this.kind = kind;
+    this.name = name;
+    this.power = power;
+    this.price = price;
+  }
 }
