@@ -1,4 +1,6 @@
-package rpg;
+package rpg._Main;
+
+import rpg.Game.Game;
 
 public class _Main {
 
@@ -17,7 +19,8 @@ public class _Main {
 		// ㄴ rpg1_1 작업 시작
 		// ㄴ 커밋 & 푸시 
 		
-		new Game();
+		Game g = new Game();
+		g.run();
 	}
 
 }
