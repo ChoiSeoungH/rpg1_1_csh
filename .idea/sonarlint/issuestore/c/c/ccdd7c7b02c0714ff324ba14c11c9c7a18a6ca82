@@ -1,35 +1,58 @@
 
-v	java:S116"URename this field "GUILD_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùê©óûÿÿÿÿ8Ëä°âÇ1
-q	java:S116"URename this field "PARTY_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÉÂ¤8Ëä°âÇ1
+„
+java:S1192-"gDefine a constant instead of duplicating this literal "======================================" 5 times.(Îªêã8Ôå‹ÿÇ1
+‚
+java:S1192w"eDefine a constant instead of duplicating this literal "====================================" 4 times.(—äÒ8Ôå‹ÿÇ1
+h
+java:S1192N"KDefine a constant instead of duplicating this literal "[ì´ë¦„ : " 4 times.(ñæÚ»8Ôå‹ÿÇ1
+v	java:S116"URename this field "GUILD_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùê©óûÿÿÿÿ8õå‹ÿÇ1
+q	java:S116"URename this field "PARTY_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÉÂ¤8õå‹ÿÇ1
 C
-java:S1170"!Make this final field static too.(Ùê©óûÿÿÿÿ8Ëä°âÇ1
+java:S1170"!Make this final field static too.(Ùê©óûÿÿÿÿ8õå‹ÿÇ1
 >
-java:S1170"!Make this final field static too.(¨ÉÂ¤8Ëä°âÇ1
-£
-java:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦Ôô¯üÿÿÿÿ8Ëä°âÇ1
-£
-java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Äİ”ıÿÿÿÿ8Ëä°âÇ1
-£
-java:S1186O"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®À£Ïÿÿÿÿÿ8Ëä°âÇ1
+java:S1170"!Make this final field static too.(¨ÉÂ¤8õå‹ÿÇ1
 g
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ùê©óûÿÿÿÿ8Íä°âÇ1
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ùê©óûÿÿÿÿ8÷å‹ÿÇ1
 b
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¨ÉÂ¤8Íä°âÇ1
-L	java:S106"+Replace this use of System.out by a logger.(šÄñ´ıÿÿÿÿ8Îä°âÇ1
-L	java:S106"+Replace this use of System.out by a logger.(³´¿ıÿÿÿÿ8Îä°âÇ1
-=	java:S131""Add a default case to this switch.(€ä¿;8Îä°âÇ1
-G	java:S106-"+Replace this use of System.out by a logger.(Îªêã8Ïä°âÇ1
-G	java:S106."+Replace this use of System.out by a logger.(ßˆ‹8Ïä°âÇ1
-G	java:S106/"+Replace this use of System.out by a logger.(Îªêã8Ïä°âÇ1
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¨ÉÂ¤8÷å‹ÿÇ1
+L	java:S106"+Replace this use of System.out by a logger.(šÄñ´ıÿÿÿÿ8øå‹ÿÇ1
+L	java:S106"+Replace this use of System.out by a logger.(³´¿ıÿÿÿÿ8øå‹ÿÇ1
+=	java:S131""Add a default case to this switch.(€ä¿;8øå‹ÿÇ1
+G	java:S106-"+Replace this use of System.out by a logger.(Îªêã8ùå‹ÿÇ1
+G	java:S106."+Replace this use of System.out by a logger.(ßˆ‹8ùå‹ÿÇ1
+G	java:S106/"+Replace this use of System.out by a logger.(Îªêã8ùå‹ÿÇ1
 `
-java:S11550">Use isEmpty() to check whether the collection is empty or not.(¹ñ›Ğşÿÿÿÿ8Ïä°âÇ1
-G	java:S1061"+Replace this use of System.out by a logger.(Ïï£ó8Ïä°âÇ1
-L	java:S1065"+Replace this use of System.out by a logger.(õÔÓüÿÿÿÿ8Ğä°âÇ1
-G	java:S106;"+Replace this use of System.out by a logger.(ıç¤Í8Ğä°âÇ1
-G	java:S106D"+Replace this use of System.out by a logger.(’ûùì8Ñä°âÇ1
+java:S11550">Use isEmpty() to check whether the collection is empty or not.(¹ñ›Ğşÿÿÿÿ8ùå‹ÿÇ1
+G	java:S1061"+Replace this use of System.out by a logger.(Ïï£ó8ùå‹ÿÇ1
+G	java:S1069"+Replace this use of System.out by a logger.(ıç¤Í8úå‹ÿÇ1
+G	java:S106B"+Replace this use of System.out by a logger.(’ûùì8ûå‹ÿÇ1
+G	java:S106J"+Replace this use of System.out by a logger.(‡ú¶8üå‹ÿÇ1
+G	java:S106M"+Replace this use of System.out by a logger.(Îªêã8üå‹ÿÇ1
+G	java:S106N"+Replace this use of System.out by a logger.(ñæÚ»8üå‹ÿÇ1
+G	java:S106O"+Replace this use of System.out by a logger.(Îªêã8üå‹ÿÇ1
+G	java:S106U"+Replace this use of System.out by a logger.(†ê¾ø8ıå‹ÿÇ1
+G	java:S106Y"+Replace this use of System.out by a logger.(‡µë±8ıå‹ÿÇ1
+G	java:S106["+Replace this use of System.out by a logger.(ÓÎó×8ıå‹ÿÇ1
+L	java:S106\"+Replace this use of System.out by a logger.(Œ…óÿÿÿÿÿ8ıå‹ÿÇ1
+G	java:S106^"+Replace this use of System.out by a logger.(Îªêã8şå‹ÿÇ1
+L	java:S106d"+Replace this use of System.out by a logger.(˜—¶õùÿÿÿÿ8ÿå‹ÿÇ1
+L	java:S106m"+Replace this use of System.out by a logger.(Éˆò©úÿÿÿÿ8ÿå‹ÿÇ1
+]	java:S125q"<This block of commented-out lines of code should be removed.(êœ«ûÿÿÿÿ8ğ€©ÿÇ1
+G	java:S106w"+Replace this use of System.out by a logger.(—äÒ8€æ‹ÿÇ1
+F	java:S106x"+Replace this use of System.out by a logger.(ıÁˆ8€æ‹ÿÇ1
+G	java:S106y"+Replace this use of System.out by a logger.(—äÒ8€æ‹ÿÇ1
+G	java:S106}"+Replace this use of System.out by a logger.(—äÒ8€æ‹ÿÇ1
+L	java:S106~"+Replace this use of System.out by a logger.(¿î¶­øÿÿÿÿ8€æ‹ÿÇ1
+L	java:S106"+Replace this use of System.out by a logger.(¢ªß¡ûÿÿÿÿ8æ‹ÿÇ1
+H	java:S106€"+Replace this use of System.out by a logger.(—äÒ8æ‹ÿÇ1
+M	java:S106‹"+Replace this use of System.out by a logger.(»˜Ï´ÿÿÿÿÿ8æ‹ÿÇ1
+G	java:S106"+Replace this use of System.out by a logger.(–é½Y8‚æ‹ÿÇ1
+H	java:S106’"+Replace this use of System.out by a logger.(ÓÎó×8‚æ‹ÿÇ1
+G	java:S106“"+Replace this use of System.out by a logger.(“æœ8¶¼ŒÿÇ1
+H	java:S106•"+Replace this use of System.out by a logger.(±„òá8ûê¨ÿÇ1
+V
+java:S1854›"8Remove this useless assignment to local variable "sort".(÷÷Õ‘8½ğ­ÿÇ1
+G
+java:S1481›")Remove this unused "sort" local variable.(÷÷Õ‘8½ğ­ÿÇ1
 L
-java:S1128"/Remove this unused import 'rpg.Utils.FileData'.(ÅÖ‡8Òä°âÇ1
-K
-java:S1068".Remove this unused "PARTY_SIZE" private field.(¨ÉÂ¤8Òä°âÇ1
-O
-java:S1068"-Remove this unused "partyList" private field.(âĞ²ùÿÿÿÿ8Òä°âÇ1
+java:S1128"/Remove this unused import 'rpg.Utils.FileData'.(ÅÖ‡8‚æ‹ÿÇ1
