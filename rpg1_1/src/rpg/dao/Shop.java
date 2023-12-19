@@ -60,6 +60,11 @@ public class Shop {
       if (i==null) {
         return;
       }
+      if (Player.getMoney()<i.getPrice()) {
+        System.out.println("골드가 부족합니다");
+        continue;
+      }
+
       if (itemList.contains(i)) {
         System.out.printf("[%s] 을 구입했습니다.%n", i.getName());
         InputManager.setDelay(800);
