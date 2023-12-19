@@ -40,10 +40,10 @@ public class Game {
           player.inventoryMenu();
           break;
         case 4://저장
-          FileData.saveFile();
+          FileData.saveFile(player);
           break;
         case 5://로드
-          FileData.loadFile();
+          FileData.loadFile(player);
           break;
       }//eos
     }//eow

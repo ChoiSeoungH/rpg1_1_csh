@@ -1,0 +1,14 @@
+87800
+4
+이성현/1/43/8/2/0/false
+null/null/null
+유호한/1/27/8/1/0/false
+null/null/null
+박진의/1/30/7/1/0/false
+null/null/null
+권우의/1/51/8/4/0/false
+null/null/null
+3
+1/철검/20/4000
+2/청동 갑옷/24/3200
+3/금반지/40/5000
