@@ -22,16 +22,22 @@ public class Unit {
     this.def = def;
   }
 
+  public Unit(String name, int level, int maxHp, int att, int def, int exp, boolean party) {
+    this.name = name;
+    this.level = level;
+    this.hp = maxHp;
+    this.maxHp = maxHp;
+    this.att = att;
+    this.def = def;
+    this.exp = exp;
+    this.party = party;
+  }
+
   public String getName() {
     return name;
   }
-
   public int getLevel() {
     return level;
-  }
-
-  public int getHp() {
-    return hp;
   }
 
   public int getMaxHp() {
@@ -52,18 +58,6 @@ public class Unit {
 
   public boolean isParty() {
     return party;
-  }
-
-  public Item getWeapon() {
-    return weapon;
-  }
-
-  public Item getArmor() {
-    return armor;
-  }
-
-  public Item getRing() {
-    return ring;
   }
 
   public void setParty(boolean party) {

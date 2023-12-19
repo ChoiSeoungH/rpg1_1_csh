@@ -62,6 +62,7 @@ public class Shop {
       }
       if (itemList.contains(i)) {
         System.out.printf("[%s] 을 구입했습니다.%n", i.getName());
+        InputManager.setDelay(800);
         Player.getInven().getItemList().add(i);
         Player.setMoney(-i.getPrice());
       }

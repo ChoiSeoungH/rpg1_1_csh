@@ -28,7 +28,13 @@ public class InputManager {
       }
     }//eow
   }//eom
-
+  public static void setDelay(int time){
+    try {
+      Thread.sleep(time);
+    } catch (InterruptedException e) {
+      throw new RuntimeException(e);
+    }
+  }
   public static int getRdNum(int start, int end){
     return rd.nextInt(end) + start;
   }

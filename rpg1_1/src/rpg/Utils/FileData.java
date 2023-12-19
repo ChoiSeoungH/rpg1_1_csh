@@ -12,8 +12,9 @@ public class FileData {
 
   public static void saveFile(Player player) {
     String gameData = player.getData();
-
+    InputManager.setDelay(800);
     saveData("gameData.txt", gameData);
+
   }//eom
 
   private static void saveData(String fileName, String data) {
@@ -27,6 +28,9 @@ public class FileData {
 
   public static void loadFile(Player player) {
     String gameData = loadData("gameData.txt");
+    Player.addData(gameData);
+    System.out.println("로드 완료");
+    InputManager.setDelay(800);
   }//eom
 
   private static String loadData(String fileName) {

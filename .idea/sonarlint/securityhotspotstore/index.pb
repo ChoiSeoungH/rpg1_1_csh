@@ -19,3 +19,5 @@ V
 &rpg1_1/src/rpg/Utils/InputManager.java,a\1\a1c1c78480b0ef8d2e647fb37473c2879eafda0a
 Q
 !rpg1_1/src/rpg/dao/Inventory.java,7\7\77ad387f0277d9730a4d5838cb1709eac33c3322
+G
+rpg1_1/src/gameData.txt,f\8\f8fddd1761f8c302947f5aae320bfcc080b3aaf0

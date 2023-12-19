@@ -1,57 +1,64 @@
 
 „
-java:S11921"gDefine a constant instead of duplicating this literal "======================================" 5 times.(Îªêã8â†õÈ1
+java:S1192/"gDefine a constant instead of duplicating this literal "======================================" 5 times.(Îªêã8×“Á™È1
 ‚
-java:S1192~"eDefine a constant instead of duplicating this literal "====================================" 4 times.(—äÒ8â†õÈ1
+java:S1192"eDefine a constant instead of duplicating this literal "====================================" 4 times.(—äÒ8Ø“Á™È1
 h
-java:S1192R"KDefine a constant instead of duplicating this literal "[ì´ë¦„ : " 4 times.(ñæÚ»8â†õÈ1
+java:S1192Q"KDefine a constant instead of duplicating this literal "[ì´ë¦„ : " 4 times.(ñæÚ»8Ø“Á™È1
 ’
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¶ÂÛ£øÿÿÿÿ8â†õÈ1
-v	java:S116"URename this field "GUILD_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùê©óûÿÿÿÿ8‚‡õÈ1
-q	java:S116"URename this field "PARTY_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÉÂ¤8‚‡õÈ1
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¶ÂÛ£øÿÿÿÿ8Ú“Á™È1
+n	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«§Øâ8â¦Æ™È1
+s	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ¶¶ìÿÿÿÿÿ8ğÈÉ™È1
+s	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üöÿÎşÿÿÿÿ8„Ê™È1
+s	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤‡Âüÿÿÿÿ8‡àÌ™È1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡ß8ô«Î™È1
+s	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°¯€úøÿÿÿÿ8“áÑ™È1
+v	java:S116
+"URename this field "GUILD_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ùê©óûÿÿÿÿ8Ş”Á™È1
+q	java:S116"URename this field "PARTY_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÉÂ¤8Ş”Á™È1
 C
-java:S1170"!Make this final field static too.(Ùê©óûÿÿÿÿ8‚‡õÈ1
+java:S1170
+"!Make this final field static too.(Ùê©óûÿÿÿÿ8Ş”Á™È1
 >
-java:S1170"!Make this final field static too.(¨ÉÂ¤8‚‡õÈ1
+java:S1170"!Make this final field static too.(¨ÉÂ¤8Ş”Á™È1
 g
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ùê©óûÿÿÿÿ8ƒ‡õÈ1
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(Ùê©óûÿÿÿÿ8à”Á™È1
 b
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¨ÉÂ¤8„‡õÈ1
-L	java:S106"+Replace this use of System.out by a logger.(šÄñ´ıÿÿÿÿ8…‡õÈ1
-L	java:S106"+Replace this use of System.out by a logger.(³´¿ıÿÿÿÿ8…‡õÈ1
-=	java:S131""Add a default case to this switch.(€ä¿;8…‡õÈ1
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¨ÉÂ¤8á”Á™È1
+L	java:S106"+Replace this use of System.out by a logger.(šÄñ´ıÿÿÿÿ8â”Á™È1
+L	java:S106"+Replace this use of System.out by a logger.(³´¿ıÿÿÿÿ8â”Á™È1
+=	java:S131""Add a default case to this switch.(€ä¿;8ã”Á™È1
 8
-java:S36265"Remove this redundant jump.(ûÁİ…8†‡õÈ1
-G	java:S1061"+Replace this use of System.out by a logger.(Îªêã8†‡õÈ1
-L	java:S1062"+Replace this use of System.out by a logger.(·°æÍûÿÿÿÿ8†‡õÈ1
-G	java:S1063"+Replace this use of System.out by a logger.(Îªêã8†‡õÈ1
-G	java:S106;"+Replace this use of System.out by a logger.(ıç¤Í8‡‡õÈ1
-G	java:S106D"+Replace this use of System.out by a logger.(’ûùì8ˆ‡õÈ1
-G	java:S106N"+Replace this use of System.out by a logger.(‡ú¶8‰‡õÈ1
-G	java:S106Q"+Replace this use of System.out by a logger.(Îªêã8‰‡õÈ1
-G	java:S106R"+Replace this use of System.out by a logger.(ñæÚ»8‰‡õÈ1
-G	java:S106S"+Replace this use of System.out by a logger.(Îªêã8‰‡õÈ1
-G	java:S106Y"+Replace this use of System.out by a logger.(†ê¾ø8‰‡õÈ1
-G	java:S106]"+Replace this use of System.out by a logger.(‡µë±8Š‡õÈ1
-G	java:S106_"+Replace this use of System.out by a logger.(ÓÎó×8Š‡õÈ1
-L	java:S106`"+Replace this use of System.out by a logger.(Œ…óÿÿÿÿÿ8Š‡õÈ1
-G	java:S106b"+Replace this use of System.out by a logger.(Îªêã8Š‡õÈ1
-L	java:S106i"+Replace this use of System.out by a logger.(˜—¶õùÿÿÿÿ8Š‡õÈ1
-L	java:S106t"+Replace this use of System.out by a logger.(Éˆò©úÿÿÿÿ8‹‡õÈ1
-]	java:S125x"<This block of commented-out lines of code should be removed.(êœ«ûÿÿÿÿ8‹‡õÈ1
-G	java:S106~"+Replace this use of System.out by a logger.(—äÒ8‹‡õÈ1
-F	java:S106"+Replace this use of System.out by a logger.(ıÁˆ8Œ‡õÈ1
-H	java:S106€"+Replace this use of System.out by a logger.(—äÒ8Œ‡õÈ1
-H	java:S106„"+Replace this use of System.out by a logger.(—äÒ8Œ‡õÈ1
-M	java:S106…"+Replace this use of System.out by a logger.(¿î¶­øÿÿÿÿ8Œ‡õÈ1
-M	java:S106†"+Replace this use of System.out by a logger.(¢ªß¡ûÿÿÿÿ8Œ‡õÈ1
-H	java:S106‡"+Replace this use of System.out by a logger.(—äÒ8Œ‡õÈ1
-M	java:S106’"+Replace this use of System.out by a logger.(»˜Ï´ÿÿÿÿÿ8‡õÈ1
-G	java:S106–"+Replace this use of System.out by a logger.(–é½Y8‡õÈ1
-H	java:S106™"+Replace this use of System.out by a logger.(ÓÎó×8‡õÈ1
-G	java:S106š"+Replace this use of System.out by a logger.(“æœ8‡õÈ1
-H	java:S106œ"+Replace this use of System.out by a logger.(±„òá8‡õÈ1
-V
-java:S1854¤"8Remove this useless assignment to local variable "sort".(÷÷Õ‘8‡õÈ1
-G
-java:S1481¤")Remove this unused "sort" local variable.(÷÷Õ‘8‡õÈ1
+java:S36263"Remove this redundant jump.(ûÁİ…8ã”Á™È1
+G	java:S106/"+Replace this use of System.out by a logger.(Îªêã8ä”Á™È1
+L	java:S1060"+Replace this use of System.out by a logger.(·°æÍûÿÿÿÿ8ä”Á™È1
+G	java:S1061"+Replace this use of System.out by a logger.(Îªêã8ä”Á™È1
+G	java:S1069"+Replace this use of System.out by a logger.(ıç¤Í8å”Á™È1
+G	java:S106B"+Replace this use of System.out by a logger.(’ûùì8æ”Á™È1
+G	java:S106D"+Replace this use of System.out by a logger.(©¢Àû8æ”Á™È1
+G	java:S106M"+Replace this use of System.out by a logger.(‡ú¶8ç”Á™È1
+G	java:S106P"+Replace this use of System.out by a logger.(Îªêã8ç”Á™È1
+G	java:S106Q"+Replace this use of System.out by a logger.(ñæÚ»8ç”Á™È1
+G	java:S106R"+Replace this use of System.out by a logger.(Îªêã8ç”Á™È1
+L	java:S106U"+Replace this use of System.out by a logger.(ĞéÚ¢üÿÿÿÿ8è”Á™È1
+G	java:S106Z"+Replace this use of System.out by a logger.(†ê¾ø8é”Á™È1
+G	java:S106^"+Replace this use of System.out by a logger.(‡µë±8é”Á™È1
+G	java:S106`"+Replace this use of System.out by a logger.(ÓÎó×8é”Á™È1
+L	java:S106a"+Replace this use of System.out by a logger.(Œ…óÿÿÿÿÿ8é”Á™È1
+G	java:S106d"+Replace this use of System.out by a logger.(Îªêã8é”Á™È1
+L	java:S106u"+Replace this use of System.out by a logger.(Éˆò©úÿÿÿÿ8ë”Á™È1
+]	java:S125y"<This block of commented-out lines of code should be removed.(êœ«ûÿÿÿÿ8ë”Á™È1
+G	java:S106"+Replace this use of System.out by a logger.(—äÒ8ë”Á™È1
+H	java:S106€"+Replace this use of System.out by a logger.(¶ŞŞÒ8ë”Á™È1
+H	java:S106"+Replace this use of System.out by a logger.(—äÒ8ë”Á™È1
+H	java:S106†"+Replace this use of System.out by a logger.(—äÒ8ì”Á™È1
+M	java:S106‡"+Replace this use of System.out by a logger.(¿î¶­øÿÿÿÿ8ì”Á™È1
+M	java:S106ˆ"+Replace this use of System.out by a logger.(¢ªß¡ûÿÿÿÿ8ì”Á™È1
+H	java:S106‰"+Replace this use of System.out by a logger.(—äÒ8ì”Á™È1
+M	java:S106”"+Replace this use of System.out by a logger.(»˜Ï´ÿÿÿÿÿ8í”Á™È1
+G	java:S106˜"+Replace this use of System.out by a logger.(–é½Y8í”Á™È1
+H	java:S106›"+Replace this use of System.out by a logger.(ÓÎó×8î”Á™È1
+G	java:S106œ"+Replace this use of System.out by a logger.(“æœ8î”Á™È1
+H	java:S106Ÿ"+Replace this use of System.out by a logger.(±„òá8î”Á™È1
+D	java:S131¨""Add a default case to this switch.(Ÿ´„ûÿÿÿÿ8ï”Á™È1

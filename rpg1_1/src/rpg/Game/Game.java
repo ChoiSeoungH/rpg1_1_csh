@@ -15,6 +15,7 @@ public class Game {
   }//eom
 
   private void init() {
+    FileData.loadFile(player);
     player = new Player();
     shop = new Shop();
     fileData = new FileData();

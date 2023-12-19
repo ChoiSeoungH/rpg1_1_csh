@@ -1,20 +1,17 @@
 
 >
-java:S1643&"Use a StringBuilder instead.(ˆ±öŠøÿÿÿÿ8Ò³Ã‹È1
+java:S1643*"Use a StringBuilder instead.(ˆ±öŠøÿÿÿÿ8ù±ô•È1
 8
-java:S1643'"Use a StringBuilder instead.(êÚ¯8Ó³Ã‹È1
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³Ÿz8Ô³Ã‹È1
+java:S1643+"Use a StringBuilder instead.(êÚ¯8ú±ô•È1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³Ÿz8ü±ô•È1
 \
 java:S1118
-":Add a private constructor to hide the implicit public one.(š‚Šüüÿÿÿÿ8Ú³Ã‹È1
+":Add a private constructor to hide the implicit public one.(š‚Šüüÿÿÿÿ8²ô•È1
 b
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ì¥½Ã8Û³Ã‹È1
-L	java:S106"+Replace this use of System.out by a logger.(³öÛ‡ıÿÿÿÿ8Ü³Ã‹È1
-L	java:S106"+Replace this use of System.out by a logger.(ğ’’ôøÿÿÿÿ8Ü³Ã‹È1
-Y
-java:S1854"<Remove this useless assignment to local variable "gameData".(êØ·­8Ü³Ã‹È1
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ì¥½Ã8’²ô•È1
+L	java:S106"+Replace this use of System.out by a logger.(³öÛ‡ıÿÿÿÿ8™²ô•È1
+L	java:S106"+Replace this use of System.out by a logger.(ğ’’ôøÿÿÿÿ8¡²ô•È1
 J
-java:S1172"-Remove this unused method parameter "player".(»Œ¸ş8Ü³Ã‹È1
-J
-java:S1481"-Remove this unused "gameData" local variable.(êØ·­8Ü³Ã‹È1
-L	java:S106*"+Replace this use of System.out by a logger.(şùı”ûÿÿÿÿ8İ³Ã‹È1
+java:S1172"-Remove this unused method parameter "player".(»Œ¸ş8›²ô•È1
+L	java:S106 "+Replace this use of System.out by a logger.(™ğ¤öøÿÿÿÿ8¤Üİ—È1
+L	java:S106."+Replace this use of System.out by a logger.(şùı”ûÿÿÿÿ8ÅáŞ—È1

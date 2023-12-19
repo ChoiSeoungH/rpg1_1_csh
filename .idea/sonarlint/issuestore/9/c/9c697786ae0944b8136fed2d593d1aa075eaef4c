@@ -3,11 +3,11 @@ v	java:S120"ZRename this package name to match the regular expression '^[a-z_
 t
 java:S1450"WRemove the "fileData" field and declare it as a local variable in the relevant methods.(Ôûå8’°úßÇ1
 E
-java:S2440"(Remove this instantiation of "FileData".(¶ËÚì8”°úßÇ1
-L	java:S106"+Replace this use of System.out by a logger.(›¼ë¤ıÿÿÿÿ8•°úßÇ1
-L	java:S106"+Replace this use of System.out by a logger.(ñÖÆıøÿÿÿÿ8•°úßÇ1
-L	java:S106"+Replace this use of System.out by a logger.(ÁÕ Ğıÿÿÿÿ8•°úßÇ1
-=	java:S131""Add a default case to this switch.(€ä¿;8–°úßÇ1
-G	java:S106"+Replace this use of System.out by a logger.(¹œá×8–°úßÇ1
+java:S2440"(Remove this instantiation of "FileData".(¶ËÚì8”°úßÇ1
+L	java:S106"+Replace this use of System.out by a logger.(›¼ë¤ıÿÿÿÿ8•°úßÇ1
+L	java:S106"+Replace this use of System.out by a logger.(ñÖÆıøÿÿÿÿ8•°úßÇ1
+L	java:S106"+Replace this use of System.out by a logger.(ÁÕ Ğıÿÿÿÿ8•°úßÇ1
+=	java:S131""Add a default case to this switch.(€ä¿;8–°úßÇ1
+G	java:S106 "+Replace this use of System.out by a logger.(¹œá×8–°úßÇ1
 I
 java:S1068",Remove this unused "fileData" private field.(Ôûå8—°úßÇ1

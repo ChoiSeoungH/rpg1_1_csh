@@ -1,14 +1,18 @@
 
 >
-java:S1643+"Use a StringBuilder instead.(ó¸Š¥þÿÿÿÿ8Ù¶›‹È1
+java:S1643H"Use a StringBuilder instead.(ó¸Š¥þÿÿÿÿ8ñ”À—È1
 9
-java:S1643,"Use a StringBuilder instead.(÷‡à…8Ú¶›‹È1
+java:S1643I"Use a StringBuilder instead.(÷‡à…8ñ”À—È1
 >
-java:S1643-"Use a StringBuilder instead.(Ñ ùÙøÿÿÿÿ8Ü¶›‹È1
+java:S1643J"Use a StringBuilder instead.(Ñ ùÙøÿÿÿÿ8ñ”À—È1
 9
-java:S1643."Use a StringBuilder instead.(ëÅªê8Ý¶›‹È1
+java:S1643K"Use a StringBuilder instead.(ëÅªê8ñ”À—È1
 9
-java:S16432"Use a StringBuilder instead.(÷¾Ò±8Þ¶›‹È1
+java:S1643O"Use a StringBuilder instead.(÷¾Ò±8ñ”À—È1
 ?
-java:S3010""Remove this assignment of "money".(²¨ã€8»·›‹È1
-L	java:S1064"+Replace this use of System.out by a logger.(éí÷„ùÿÿÿÿ8Ñ‡œ‹È1
+java:S3010""Remove this assignment of "money".(²¨ã€8Ò–À—È1
+L	java:S106Q"+Replace this use of System.out by a logger.(éí÷„ùÿÿÿÿ8Ú–À—È1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ü–À—È1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ü–À—È1

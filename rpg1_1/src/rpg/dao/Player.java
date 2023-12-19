@@ -3,6 +3,9 @@ package rpg.dao;
 import rpg.vo.Item;
 import rpg.vo.Unit;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Player {
   private static int money;
   private static Guild guild = new Guild();
@@ -28,6 +31,32 @@ public class Player {
     return inven;
   }
 
+  public static void addData(String gameData) {
+    String[] temp = gameData.split("\n");
+    money = Integer.parseInt(temp[0]);
+    int start = 2;
+    int end = 2 + 2 * Integer.parseInt(temp[1]);
+    for (int i = start; i < end; i+=2) { //길드원
+      String[] info = temp[i].split("/");
+      guild.getGuildList().add(new Unit(info[0], Integer.parseInt(info[1]), Integer.parseInt(info[2]), Integer.parseInt(info[3]),
+          Integer.parseInt(info[4]), Integer.parseInt(info[5]), Boolean.parseBoolean(info[6])));
+      info = temp[i + 1].split("/");
+      for (int j = 0; j < info.length; j++) {
+        String[] info2 = info[j].split(",");
+        if (info2.length == 1) continue;
+        guild.getGuildList().get(i / 2 - 1).setItem(new Item(Integer.parseInt(info2[0]), info2[1]
+            , Integer.parseInt(info2[2]), Integer.parseInt(info2[3])));
+      }
+    }
+    start = end + 1;
+    end = start + Integer.parseInt(temp[end]);
+    for (int i = start; i < end; i++) {//아이템
+      String[] info = temp[i].split("/");
+      inven.getItemList().add(new Item(Integer.parseInt(info[0]), info[1]
+          , Integer.parseInt(info[2]), Integer.parseInt(info[3])));
+    }
+  }
+
   public void guildMenu() {
     guild.guildMenu();
   }
@@ -50,6 +79,7 @@ public class Player {
       data += getItemData(i);
     }
     System.out.println(data);
+
     return data;
   }
 

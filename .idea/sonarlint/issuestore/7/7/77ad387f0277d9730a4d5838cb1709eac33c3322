@@ -5,9 +5,9 @@ L	java:S106"+Replace this use of System.out by a logger.(¿Õ˜Ùùÿÿÿÿ8É†•ŠÈ1
 G	java:S106"+Replace this use of System.out by a logger.(£¿ˆÑ8Ê†•ŠÈ1
 =	java:S131""Add a default case to this switch.(€ä¿;8Ì†•ŠÈ1
 G	java:S106("+Replace this use of System.out by a logger.(¨àñ8Í†•ŠÈ1
-L	java:S1065"+Replace this use of System.out by a logger.(µß•£øÿÿÿÿ8Î†•ŠÈ1
-G	java:S1068"+Replace this use of System.out by a logger.(ÓÎó×8Ï†•ŠÈ1
-L	java:S1069"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8Ï†•ŠÈ1
-L	java:S106?"+Replace this use of System.out by a logger.(—ÖÏ³şÿÿÿÿ8Ï†•ŠÈ1
-L	java:S106K"+Replace this use of System.out by a logger.(—“ê¬ıÿÿÿÿ8Ï†•ŠÈ1
-L	java:S106P"+Replace this use of System.out by a logger.(¦ûûşÿÿÿÿ8Ï†•ŠÈ1
+L	java:S1066"+Replace this use of System.out by a logger.(µß•£øÿÿÿÿ8Î†•ŠÈ1
+G	java:S1069"+Replace this use of System.out by a logger.(ÓÎó×8Ï†•ŠÈ1
+L	java:S106:"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8Ï†•ŠÈ1
+L	java:S106@"+Replace this use of System.out by a logger.(—ÖÏ³şÿÿÿÿ8Ï†•ŠÈ1
+L	java:S106L"+Replace this use of System.out by a logger.(—“ê¬ıÿÿÿÿ8Ï†•ŠÈ1
+L	java:S106Q"+Replace this use of System.out by a logger.(¦ûûşÿÿÿÿ8Ï†•ŠÈ1

@@ -34,12 +34,13 @@ public class Inventory {
     if (!hasItem()) return;
     if (!Player.getGuild().printGuildMember()) return;
 
-    int member = InputManager.getValue("아이템을 착용할 길드원을 선택하세요 >> ", 0, Player.getGuild().getGuildList().size())-1;
+    int member = InputManager.getValue("아이템을 착용할 길드원을 선택하세요 : ", 0, Player.getGuild().getGuildList().size())-1;
     while (true) {
       if (!hasItem()) return;
       System.out.println(Player.getGuild().getGuildList().get(member));
+      InputManager.setDelay(800);
       printItemList();
-      int num = Integer.parseInt(InputManager.getValue("착용할 아이템 번호를 입력하세요 [0.뒤로가기]"))-1;
+      int num = Integer.parseInt(InputManager.getValue("착용할 아이템 번호를 입력하세요 [0.뒤로가기] : "))-1;
       if (num==-1) return;
       if (Player.getGuild().getGuildList().get(member).getItem(itemList.get(num).getKind())!=null){
         itemList.add(Player.getGuild().getGuildList().get(member).getItem(itemList.get(num).getKind()));
@@ -78,6 +79,7 @@ public class Inventory {
         return;
       }
       System.out.println(itemList.get(item).getName()+"을 판매합니다.");
+      InputManager.setDelay(800);
       Player.setMoney(itemList.get(item).getPrice() / 2);
       itemList.remove(item);
     }//eow
