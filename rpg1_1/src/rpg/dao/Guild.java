@@ -47,7 +47,7 @@ public class Guild {
 
   private void printAllGuildMember() {
     System.out.println("======================================");
-    System.out.println("골드 : " + Player.money);
+    System.out.println("골드 : " + Player.getMoney());
     System.out.println("======================================");
     if (!printGuildMember()) {
       return;

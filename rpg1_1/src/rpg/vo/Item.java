@@ -32,7 +32,8 @@ public class Item {
     this.price = price;
   }
 
-
+  public Item() {
+  }
 
   @Override
   public String toString() {
