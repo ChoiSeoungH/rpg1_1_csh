@@ -1,0 +1,13 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(¿Õ˜Ùùÿÿÿÿ8ÔÖƒÈ1
+G	java:S106"+Replace this use of System.out by a logger.(£¿ˆÑ8ÔÖƒÈ1
+=	java:S131""Add a default case to this switch.(€ä¿;8ÔÖƒÈ1
+L	java:S106#"+Replace this use of System.out by a logger.(‹Şğ¸ûÿÿÿÿ8ÕÖƒÈ1
+L	java:S1061"+Replace this use of System.out by a logger.(µß•£øÿÿÿÿ8ÖÖƒÈ1
+G	java:S1064"+Replace this use of System.out by a logger.(ÓÎó×8ÖÖƒÈ1
+L	java:S1065"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8ÖÖƒÈ1
+L	java:S106;"+Replace this use of System.out by a logger.(—ÖÏ³şÿÿÿÿ8×ÖƒÈ1
+L	java:S106G"+Replace this use of System.out by a logger.(Í«‰áøÿÿÿÿ8×ÖƒÈ1
+L	java:S106L"+Replace this use of System.out by a logger.(¦ûûşÿÿÿÿ8×ÖƒÈ1
+S
+java:S2696M"6Make the enclosing method "static" or remove this set.(°¶ÃÅ8ØÖƒÈ1

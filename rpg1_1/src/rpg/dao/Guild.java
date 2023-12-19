@@ -14,6 +14,10 @@ public class Guild {
   private ArrayList<Unit> guildList = new ArrayList<>();
   private ArrayList<Unit> partyList = new ArrayList<>();
 
+  public ArrayList<Unit> getGuildList() {
+    return guildList;
+  }
+
   public void guildMenu() {
     while (true) {
       System.out.println("=============== [길드관리] ================");
@@ -45,11 +49,9 @@ public class Guild {
     System.out.println("======================================");
     System.out.println("골드 : " + Player.money);
     System.out.println("======================================");
-    if (guildList.size() == 0) {
-      System.out.println("길드원이 존재하지 않습니다");
+    if (!printGuildMember()) {
       return;
     }
-    printGuildMember();
   }//eom
 
   private void addGuildMember() {
@@ -68,7 +70,9 @@ public class Guild {
   }//eom
 
   private void deleteGuildMember() {
-    printGuildMember();
+    if (!printGuildMember()) {
+      return;
+    }
     int member = InputManager.getValue("삭제할 번호를 입력하세요 ", 1, guildList.size()) - 1;
     if (guildList.get(member).isParty()) {
       System.out.println("파티중인 멤버는 삭제할 수 없습니다.");
@@ -80,10 +84,10 @@ public class Guild {
     guildList.remove(member);
   }//eom
 
-  private void printGuildMember() {
+  public boolean printGuildMember() {
     if (guildList.isEmpty()) {
       System.out.println("길드원이 없습니다");
-      return;
+      return false;
     }
     int idx = 0;
     System.out.println("================ [길드원] ===============");
@@ -92,6 +96,7 @@ public class Guild {
       System.out.println(unit + "\n");
     }
     System.out.println("======================================");
+    return true;
   }
 
   private void changePartyMember() {
@@ -102,7 +107,9 @@ public class Guild {
       party = InputManager.getValue("교체할 번호를 입력하세요 >> ", 1, partyList.size()) - 1;
     }
 
-    printGuildMember();
+    if (!printGuildMember()) {
+      return;
+    }
     int guild = InputManager.getValue("참가할 번호를 입력하세요 >> ", 1, guildList.size()) - 1;
 
     if (!partyList.isEmpty() && partyList.get(party).equals(guildList.get(guild))) {
@@ -151,7 +158,9 @@ public class Guild {
   }
 
   private void sortGuildMember() {
-    printGuildMember();
+    if (!printGuildMember()) {
+      return;
+    }
     String sort = InputManager.getValue("정렬할 기준 >> ");
 
   }//eom
